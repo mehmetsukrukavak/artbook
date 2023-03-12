@@ -22,18 +22,18 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="artbook" translatesAutoresizingMaskIntoConstraints="NO" id="Kgr-OY-hjt">
-                                <rect key="frame" x="76" y="325" width="240" height="202"/>
+                                <rect key="frame" x="97" y="343" width="198" height="166"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.94117647410000005" green="0.94117647410000005" blue="0.94117647410000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="Kgr-OY-hjt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="7zj-94-kX3"/>
-                            <constraint firstItem="Kgr-OY-hjt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="BK3-aY-LvG"/>
-                            <constraint firstItem="Pgp-7M-1EM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="k2y-hi-E4D"/>
-                            <constraint firstItem="Kgr-OY-hjt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="l5g-bH-g75"/>
-                            <constraint firstItem="Pgp-7M-1EM" firstAttribute="centerX" secondItem="Kgr-OY-hjt" secondAttribute="centerX" id="lEj-kl-xaA"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Kgr-OY-hjt" secondAttribute="bottom" constant="291" id="qaS-cn-Zdp"/>
+                            <constraint firstItem="Pgp-7M-1EM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="0O2-HC-YvU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Kgr-OY-hjt" secondAttribute="bottom" constant="309" id="4BC-FD-5K8"/>
+                            <constraint firstItem="Pgp-7M-1EM" firstAttribute="centerX" secondItem="Kgr-OY-hjt" secondAttribute="centerX" id="cvp-et-vUw"/>
+                            <constraint firstItem="Kgr-OY-hjt" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="czx-59-d2o"/>
+                            <constraint firstItem="Kgr-OY-hjt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="eJn-Wy-QaL"/>
+                            <constraint firstItem="Kgr-OY-hjt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hRq-OD-7vH"/>
                         </constraints>
                     </view>
                 </viewController>
