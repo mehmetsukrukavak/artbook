@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D305FBC529BEFBFA005A31BC /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D305FBC429BEFBFA005A31BC /* DetailsViewController.swift */; };
+		D305FBC929BF25C2005A31BC /* selectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = D305FBC829BF25C2005A31BC /* selectImage.png */; };
 		D36AE91329BE4ADD00D7F549 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36AE91229BE4ADD00D7F549 /* AppDelegate.swift */; };
 		D36AE91529BE4ADD00D7F549 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36AE91429BE4ADD00D7F549 /* SceneDelegate.swift */; };
 		D36AE91729BE4ADD00D7F549 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36AE91629BE4ADD00D7F549 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D305FBC429BEFBFA005A31BC /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D305FBC829BF25C2005A31BC /* selectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectImage.png; sourceTree = "<group>"; };
 		D36AE90F29BE4ADD00D7F549 /* ArtBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36AE91229BE4ADD00D7F549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D36AE91429BE4ADD00D7F549 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,11 +65,13 @@
 				D36AE91229BE4ADD00D7F549 /* AppDelegate.swift */,
 				D36AE91429BE4ADD00D7F549 /* SceneDelegate.swift */,
 				D36AE91629BE4ADD00D7F549 /* ViewController.swift */,
+				D305FBC429BEFBFA005A31BC /* DetailsViewController.swift */,
 				D36AE91829BE4ADD00D7F549 /* Main.storyboard */,
 				D36AE91E29BE4ADF00D7F549 /* Assets.xcassets */,
 				D36AE92029BE4ADF00D7F549 /* LaunchScreen.storyboard */,
 				D36AE92329BE4ADF00D7F549 /* Info.plist */,
 				D36AE91B29BE4ADD00D7F549 /* ArtBook.xcdatamodeld */,
+				D305FBC829BF25C2005A31BC /* selectImage.png */,
 			);
 			path = ArtBook;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D36AE92229BE4ADF00D7F549 /* LaunchScreen.storyboard in Resources */,
+				D305FBC929BF25C2005A31BC /* selectImage.png in Resources */,
 				D36AE91F29BE4ADF00D7F549 /* Assets.xcassets in Resources */,
 				D36AE91A29BE4ADD00D7F549 /* Main.storyboard in Resources */,
 			);
@@ -145,6 +152,7 @@
 				D36AE91329BE4ADD00D7F549 /* AppDelegate.swift in Sources */,
 				D36AE91D29BE4ADD00D7F549 /* ArtBook.xcdatamodeld in Sources */,
 				D36AE91529BE4ADD00D7F549 /* SceneDelegate.swift in Sources */,
+				D305FBC529BEFBFA005A31BC /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
